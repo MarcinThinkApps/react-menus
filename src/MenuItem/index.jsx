@@ -4,7 +4,7 @@ var React         = require('react')
 var assign        = require('object-assign')
 var normalize     = require('react-style-normalizer')
 var EVENT_NAMES   = require('react-event-names')
-
+var THEME         = require('./themes')
 var getMenuOffset = require('../getMenuOffset')
 
 var prepareChildren = require('./prepareChildren')
